@@ -32,7 +32,7 @@ struct _pb_istream_t
     void *state; /* Free field for use by callback implementation */
     size_t bytes_left;
     
-version(PB_NO_ERRMSG) else {
+version(PB_NO_ERRMSG) {} else {
     const(char) *errmsg;
 }
 }
