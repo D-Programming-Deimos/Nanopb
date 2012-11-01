@@ -6,7 +6,7 @@ Nanopb
 Notes and Differences from C version
 ------------------------------------
 
-* You MUST link with a version of Nanopb that was either NOT compiled by GCC, or if it was compiled with GCC, then with either `__GNUC__` undefined or `__attribute__((packed))` disabled. Otherwise, the C side will use packed structs while the D side uses non-packed structs, and things will not work correctly.
+* Currently, you MUST link with a version of Nanopb that was either NOT compiled by GCC, or if it was compiled with GCC, then with either `__GNUC__` undefined or `__attribute__((packed))` disabled. Otherwise, the C side will use packed structs while the D side uses non-packed structs, and things will not work correctly.
 
 * In the C version, `PB_MAX_REQUIRED_FIELDS` can be overridden from either the command line, or by changing it directly in the C header. D does not support setting values from the command line, so it can ONLY be changed by directly modifying the D import module.
 
