@@ -1,7 +1,9 @@
 Nanopb
 ======
 
-[Nanopb](http://koti.kapsi.fi/jpa/nanopb/) is an ANSI-C library for encoding and decoding messages in Google's Protocol Buffers format with minimal requirements for RAM and code space. It is primarily suitable for 32-bit microcontrollers.
+Nanopb - protocol buffers with small code size - http://koti.kapsi.fi/jpa/nanopb/
+
+[Nanopb](http://koti.kapsi.fi/jpa/nanopb/) is an ANSI-C library for encoding and decoding messages in Google's [Protocol Buffers](http://code.google.com/apis/protocolbuffers/) format with minimal requirements for RAM and code space. It is primarily suitable for 32-bit microcontrollers.
 
 Notes and Differences from C version
 ------------------------------------
